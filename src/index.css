@@ -1,0 +1,46 @@
+@import 'tailwindcss' source('./');
+@import '@fontsource/poppins/200.css';
+@import '@fontsource/poppins/300.css';
+@import '@fontsource/poppins/400.css';
+@import '@fontsource/poppins/500.css';
+@import '@fontsource/poppins/600.css';
+@import './shell/shell.css';
+
+/* ───────────── FinQuix tasarım token'ları (Figma: FinQuix-UI/UX) ───────────── */
+:root {
+  --app-bg: #ffffff;
+}
+
+@theme {
+  /* Renkler */
+  --color-brand: #144748;       /* ana koyu petrol yeşili: butonlar, çerçeveler, ikonlar */
+  --color-navy: #144473;        /* başlıklar (Budget, Pocket Goals), seçili sekme çizgisi */
+  --color-blue: #1346c7;
+  --color-expense: #ba0808;     /* gider, uyarı, alarm */
+  --color-income: #2e7c2c;      /* gelir */
+  --color-bar: #d9d9d9;         /* üst bar zemini, pasif grafik çubukları */
+  --color-bg: #ffffff;
+  --color-ink: #000000;
+  --color-muted: #6b6f72;
+  --color-line: #000000;
+
+  /* Kategori renkleri (halka grafikler, bütçe kartları) */
+  --color-cat-orange: #ea6b32;
+  --color-cat-yellow: #f1aa3c;
+  --color-cat-green: #71af58;
+  --color-cat-blue: #308dbe;
+  --color-cat-teal: #0b95a2;
+  --color-cat-lime: #9fbd0a;
+
+  /* Köşe yuvarlaklıkları */
+  --radius-card: 10px;
+  --radius-pill: 9.5px;
+  --radius-field: 26px;
+  --radius-btn: 35.5px;
+
+  /* Yazı tipi: marka fontu Poppins (her cihazda aynı) */
+  --font-sans: 'Poppins', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+
+  --font-weight-extralight: 200;
+  --font-weight-light: 300;
+}
